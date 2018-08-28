@@ -6,6 +6,9 @@ using System.Web;
 
 namespace BabyShop.Models
 {
+    /// <summary>
+    /// Classe que representa um cliente e faz o mapeamento no BD através do EntityFramework
+    /// </summary>
     [Table("Clientes")]
     public class Cliente
     {
